@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "export-sentry-issues-to-csv",
+  "description": "Enable export Sentry issues to CSV text. This extention does not have any official relationship with https://sentry.io/ .",
+  "version": "1.0.0",
+  "icons": {
+    "16": "assets/images/icon-16.png",
+    "48": "assets/images/icon-48.png",
+    "128": "assets/images/icon-128.png"
+  },
+  "background": {
+    "scripts": [
+      "assets/scripts/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "assets/images/icon-19.png",
+      "38": "assets/images/icon-38.png"
+    },
+    "default_title": "abehiroshize"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://sentry.io/*"],
+      "js": ["assets/scripts/content.js"]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}
