@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "export-sentry-issues-to-csv",
-  "description": "Enable export Sentry issues to CSV text. This extention does not have any official relationship with https://sentry.io/ .",
+  "name": "copy-sentry-issues-to-clipboard-for-csv",
+  "description": "Enable copy Sentry issues to clipboard text for CSV. This extention does not have any official relationship with https://sentry.io/ .",
   "version": "1.0.0",
   "icons": {
     "16": "assets/images/icon-16.png",

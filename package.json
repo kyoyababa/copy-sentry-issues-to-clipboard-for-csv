@@ -1,7 +1,7 @@
 {
-  "name": "export-sentry-issues-to-csv",
+  "name": "copy-sentry-issues-to-clipboard-for-csv",
   "version": "1.0.0",
-  "description": "Enable export Sentry issues to CSV text. This extention does not have any official relationship with https://sentry.io/ .",
+  "description": "Enable copy Sentry issues to clipboard text for CSV. This extention does not have any official relationship with https://sentry.io/ .",
   "main": "gulpfile.babel.js",
   "scripts": {
     "start": "gulp start"
